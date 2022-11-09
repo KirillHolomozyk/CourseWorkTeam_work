@@ -1,0 +1,99 @@
+$bg-color: rgb(62, 97, 62);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;500;700&display=swap');
+@import 'page2';
+@import 'page3';
+body{
+    font-family: Inter;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+    // font-weight: 300;
+    // font-size: 1em;
+}
+
+header{
+    background: $bg-color;
+    display: flex;
+    width: 100%;
+    .header_img{
+        width: 15%;
+        height: 100px;
+        margin: 15px;
+    }
+    .header_text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-size: 1.5em;
+        width: 85%;
+    }
+}
+
+.home{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17rem,auto));
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 40px;
+}
+
+.left-column .btn{
+    border: 2px solid $bg-color;
+    border-radius: 6px;
+    background-color: #fff;
+    height: 90px;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 15px;
+    font-weight: 300;
+    font-size: 1em;
+    
+}
+.left-column .firstLeft :hover{
+    background: $bg-color;
+}
+.left-column .secondLeft :hover{
+    background: $bg-color;
+}
+
+.right-column .title2{
+    font-weight: 500;
+    margin: 5px 0;
+    font-size: 1.2em;
+    margin-right: 15px;
+}
+.right-column .text2{
+    font-weight: 300;
+    font-size: 1em;
+    margin-right: 15px;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    // width: 100%;
+    margin-right: 5px;
+    height: 90px;
+    margin-left: 0;
+    width: 100%;
+    margin-right: 5px;
+    justify-content: space-around;
+    align-items: center;
+    background: $bg-color;
+    .names{
+        display: flex;
+        flex-direction: column;
+    }
+    display: flex;
+}
+
+
+
+//ДРУГА СТОРІНКА
+
+
+

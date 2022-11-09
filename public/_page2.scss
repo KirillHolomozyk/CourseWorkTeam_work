@@ -1,0 +1,58 @@
+.home2{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    // border: 1px solid red;
+    
+    svg{
+        // border: 1px solid red;
+        // text-align: left;
+
+        // margin-left: 15px;
+        position: absolute;
+        top: 145px;
+        left: 20px;
+
+    }
+    .title3{
+        display: flex;
+        align-items: center;
+        font-size: 1.1em;
+    }
+}
+.left_column1 .btn{
+    border: 2px solid $bg-color;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 10px;
+    width: 180px;
+    height: 45px;
+    font-size: 1.1em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .up{
+        display: none;
+    }
+    // .down{
+    //     display: inline;
+    // }
+    
+}
+
+.left_column1 .btn{
+    
+}
+
+.left_column1 .firstLeft1 :hover{
+    background-color: $bg-color;
+}
+.left_column1 .secondLeft1 :hover{
+    background-color: $bg-color;
+}
+.left_column1 .thirdLeft1 :hover{
+    background-color: $bg-color;
+}
+.left_column1 .firstLeft1{
+    margin-top: 15px;
+}
