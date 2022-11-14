@@ -1,0 +1,39 @@
+.home-third1{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    .title3{
+        display: flex;
+        align-items: center;
+        font-size: 1.1em;
+    }
+}
+
+.left_column1 {
+    .btn-2 {
+        border: 2px solid $bg-color;
+        background-color: #fff;
+        border-radius: 10px;
+        margin: 20px 10px;
+        width: 30%;
+        height: 80px;
+        font-size: 1.1em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        text-align: left;
+        svg{
+            height: 40px;
+            width: 50px;
+        }
+        .up {
+            display: none;
+        }
+
+        // .down{
+        //     display: inline;
+        // }
+    }
+}
+
