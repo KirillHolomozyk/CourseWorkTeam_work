@@ -42,3 +42,4 @@ function showList(point){
 function hideList(point){
     return 0; // hide table with data
 }
+
