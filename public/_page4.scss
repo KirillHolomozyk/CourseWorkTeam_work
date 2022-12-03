@@ -1,0 +1,30 @@
+.lastinfo{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.lasttitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.inf1, 
+.inf2, 
+.inf3,
+.inf4,
+.inf5,
+.inf6{
+    background-color: rgb(62, 97, 62, 25%);
+    height: 450px;
+    width: 250px;
+    padding: 10px;
+    margin: 15px;
+    .inf1-img,.inf2-img,.inf3-img,.inf4-img,.inf5-img,.inf6-img{
+        text-align: center;
+    }
+    .inf1-text,.inf2-text,.inf3-text,.inf4-text,.inf5-text,.inf6-text{
+        margin-top: 5px;
+    }
+}

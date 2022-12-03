@@ -21,3 +21,23 @@ document.querySelector('.arrright').onclick = () =>{
         count++;
     }
 }
+
+// let count1 = 0;
+// let amount = 100;
+// let myAmm = 0;
+// while(myAmm <= amount){
+//     setTimeout(() => {
+//         console.log("Delayed for 1 second.");
+//         if(count1 == array_words.length - 1){
+//             divWords.innerHTML = array_words[count1];
+//             count1 = 0;
+//             myAmm ++;
+//         }
+//         else{
+//             divWords.innerHTML = array_words[count1];
+//             count1++;
+//             myAmm++;
+//         }
+//       }, 100)
+//     myAmm++;
+// }
